@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #e9e5e5;
+    
+}
+.container{
+    overflow: hidden;
+}
+.navbar{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 4px 0 rgb(97, 95, 95);
+}
+.navbar ul{
+    display: flex;
+    margin-left: 300px;
+    cursor: pointer;
+}
+.navbar ul a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.navbar ul a:hover{
+    color: greenyellow;
+    text-decoration: underline;
+    text-underline-offset: 20px;
+    
+}
+.navbar button{
+    width: 60px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 60px;
+}
+.navbar button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid red;
+    
+}
+.logo{
+    font-size: 25px;
+    margin-left: 30px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 95px;
+}
+.main-text{
+    margin-left: 80px;
+    
+}
+.main h1{
+    margin-top: 20px;
+    font-size: 40px;
+}
+.main h2{
+  
+    font-size: 25px;
+    color: #1391a1;
+}
+.main p{
+    margin-top: 17px;
+    font-size: 14px;
+    color: rgb(102, 102, 102);
+}
+.explore{
+    padding: 8px ;
+    margin-top: 20px;
+    font-size: 15px;
+    background-color: chartreuse;
+    color: whitesmoke;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.explore:hover{
+    background-color: transparent;
+    border: 4px solid greenyellow;
+    color: black;
+}
+.main img{
+    margin-top: 30px;
+    width: 50vw;
+    height: 80vh;
+    object-fit: contain;
+    margin-right: -111px;
+}
+.clothes{
+
+}
+.headText{
+    margin: 200px 0 80px 0;
+    text-align: center;
+}
+.headText h1{
+    font-size: 40px;
+}
+.headText h1 span{
+    color: crimson;
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+
+.card .trend{
+    width: 280px;
+    margin-inline: 25px;
+    border-radius: 6px;
+    background-color: white;
+}
+.trend img {
+     width: 100%;
+    height: 64%;
+    object-fit: contain;
+}
+.trend .card-text{
+    padding: 10px;
+}
+.card-text p{
+    margin-top: 10px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.card-text h2{
+    margin-top: 10px;
+}
+.trend i{
+    color: goldenrod;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.trend button{
+    margin-left: 35px;
+    padding: 5px;
+    background-color:crimson;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.card .trend:hover{
+    color: whitesmoke;
+    background-color: rgb(189, 186, 186);
+    width: 300px;
+    transition:  0.6s ease;
+}
+
+.head h1{
+    display: flex;
+    justify-content: center;
+    margin: 250px 0 30px 0;
+    font-size: 40px;
+}
+.head h1 span{
+    color: crimson;
+}
+.blogs{
+    display: flex;
+    justify-content: center;
+    /* background-color: burlywood; */
+}
+.blogCard{
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 6px 6px 9px rgb(105, 105, 104);
+    background-color: whitesmoke;
+    margin-inline: 28px;
+    width: 500px;
+}
+.blogCard img{
+    width: 44%;
+    object-fit: cover;
+    height: 100%;
+}
+.blog-Text p{
+    justify-content: center;
+    margin: 20px;
+    font-size: 22px;
+}
+.blog-Text a{
+    padding: 5px;
+    margin: 20px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    background-color: yellowgreen;
+}
+.blog-Text a:hover{
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid yellowgreen;
+}
+.R-head{
+    margin:250px 0 60px 0 ;
+    display: flex;
+    justify-content: center;
+}
+.R-head h1{
+    font-size: 40px;
+}
+.R-head h1 span{
+    color: crimson;
+}
+.review{
+    display: flex;
+    justify-content: center;
+}
+.customer{
+    width: 250px;
+    background-color: white;
+    padding: 24px;
+    margin-inline: 22px;
+    border-radius: 10px;
+    box-shadow:  6px 6px 10px  grey  ;
+    
+}
+.customer img{
+    margin: 0 55px;
+    width: 44%;
+    height: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.reviewText{
+    align-items: center;
+    text-align: center;
+}
+.reviewText p{
+    margin-top: 20px;
+    font-size: 20px;
+    /* text-align: center; */
+    
+}
+.reviewText i{
+    margin-top: 8px;
+    color: goldenrod;
+}
+.headContact h3{
+    margin: 300px 0 50px 0;
+    text-align: center;
+    font-size: 25px;
+} 
+.headContact h3 span{
+    color: #20a579;
+}
+
+.input{
+    border: 3px solid #20a579;
+    text-align: center;
+    width: 500px;
+    margin-left:  420px;
+}
+.input input{
+    width: 300px;
+    padding: 9px;
+    margin: 10px 0;
+    outline: none;
+    font-size: 14px;
+    border: 2px solid #20a579;
+}
+.input button{
+    margin: 20px 0 ;
+    padding: 6px;
+    font-size: 14px;
+    border: none;
+    background-color: #255243;
+    color: white;
+    cursor: pointer;
+}
+.input button:hover{
+    color: black;
+    background-color: #ffffff;
+    border: 2px solid #2a8869;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #015346;
+    color: black;
+    padding: 55px;
+    margin-top: 55px;
+}
+
+.loginPage{
+    display: none;
+    width:  190px;
+    padding: 22px;
+    background-color: white;
+    text-align: center;
+    position: absolute;
+    margin-left: 81%;
+    top: 9%;
+
+}
+.loginPage input{
+    width: 166px;
+    padding: 4px;
+    border: 2px solid red;
+    margin-top: 11px;
+}
+.loginPage button{
+    margin-top: 13px;
+    width: 80px;
+    height: 28px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    background-color: brown;
+}

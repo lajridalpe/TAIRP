@@ -1,0 +1,104 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    color: #fff;
+    /* text-align: center; */
+    padding: 20px 0;
+}
+header h1{
+    font-size: 80px;
+    color:#f08b2d;
+    margin-left: 42px;
+}
+nav {
+    background-color: #c4bfbf;
+    color: #fff;
+    padding: 20px 25px;
+    box-shadow: 2px 6px 7px  gray;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 20px 15px;
+    font-size: 17px;
+    font-weight: 800;
+    padding: 5px;
+}
+nav a:hover{
+    background-color: white;
+    border: 1px solid white;
+    color: black;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow:  9px 8px 8px 10px #0505051a;
+    
+}
+
+/* h1, h2 {
+    color: #333;
+} */
+.head h1{
+    text-align: center;
+    font-size: 70px;
+    margin-bottom: -20px;
+    border-radius: 50px;
+    color:#ffffff ;
+    background-color: #b62850;
+    /* border: 8px solid #0c0c0c; */
+    /* padding-bottom: -30px; */
+}
+
+.recipe {
+    border-bottom: 1px solid #ccc;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+.recipe img {
+    max-width: 40%;
+    height: 30%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.recipe h2 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.recipe p {
+    color: #555;
+    margin-bottom: 15px;
+    
+}
+
+.recipe ol {
+    margin-bottom: 15px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+
+@media only screen and (max-width: 600px) {
+    nav a {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
